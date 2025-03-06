@@ -1,23 +1,18 @@
-# QR Code Generator 🖼️
+# **QR Code Generator 🖼️**  
 
-A simple **Tkinter-based QR Code Generator** that allows users to **input URLs, customize colors, and save QR codes** with ease.
+A simple **Streamlit-based QR Code Generator** that allows users to **input URLs, customize colors, and download QR codes** with ease.  
 
-## 🚀 Features
-- 🔗 **Enter any URL** to generate a QR code.
-- 🎨 **Customize foreground & background colors**.
-- 💾 **Save QR codes as PNG files**.
-- 🖥️ **Easy-to-use Tkinter GUI**.
+🚀 **Try it online:** [**QR Code Generator (Live Demo)**](https://huggingface.co/spaces/TheSusHero/QR-Code-Generator)  
 
-## 📦 Installation
-Make sure you have **Python** installed. Then, install the required dependencies:
+## **🚀 Features**  
+- 🔗 **Enter any URL** to generate a QR code.  
+- 🎨 **Customize foreground & background colors**.  
+- 💾 **Download QR codes as PNG files**.  
+- 🌐 **Now built with Streamlit for an interactive web experience!**  
 
-```sh
-pip install qrcode[pil] pillow tkinter
-```
-
-## ▶️ Usage
-Run the script:
+## **📦 Installation**  
+Make sure you have **Python** installed. Then, install the required dependencies:  
 
 ```sh
-python qrCode.py
+pip install streamlit qrcode[pil] pillow
 ```
